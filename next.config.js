@@ -24,6 +24,12 @@ const nextConfig = {
     ],
   },
 
+  // 新增chinese-conv相关配置
+  transpilePackages: ['chinese-conv'],
+  experimental: {
+    esmExternals: 'loose',
+  },
+
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>

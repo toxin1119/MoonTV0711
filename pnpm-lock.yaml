@@ -38,6 +38,9 @@ importers:
       artplayer:
         specifier: ^5.2.3
         version: 5.2.3
+      chinese-conv:
+        specifier: ^3.2.2
+        version: 3.2.2
       clsx:
         specifier: ^2.0.0
         version: 2.1.1
@@ -2637,6 +2640,9 @@ packages:
   char-regex@1.0.2:
     resolution: {integrity: sha512-kWWXztvZ5SBQV+eRgKFeh8q5sLuZY2+8WUIzlxWVTg+oGwY14qylx1KbKzHd8P6ZYkAg0xyIDU9JMHhyJMZ1jw==}
     engines: {node: '>=10'}
+
+  chinese-conv@3.2.2:
+    resolution: {integrity: sha512-tv/he3PX7Uo+ySYVdKy3t/vhx7zdZoshS2HGLWOqotfVaR5hK5f6rsJeU2vAXeCRgzRxpW52LcN3CtinVDPEeQ==}
 
   chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
@@ -9211,6 +9217,8 @@ snapshots:
   chalk@5.4.1: {}
 
   char-regex@1.0.2: {}
+
+  chinese-conv@3.2.2: {}
 
   chokidar@3.6.0:
     dependencies:
